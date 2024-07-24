@@ -1,0 +1,12 @@
+git init
+
+git add .
+git add filename.txt
+
+git rm --cached -r
+git rm --cached filename.txt
+
+git commit -m "First Commit"
+
+git log                                    // (commit history)
+git log --oneline                           //(commit history in one line)
