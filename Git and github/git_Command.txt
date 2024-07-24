@@ -10,3 +10,12 @@ git commit -m "First Commit"
 
 git log                                    // (commit history)
 git log --oneline                           //(commit history in one line)
+
+
+echo "# Message" >> README.md               //(create new file)
+
+git branch -M main                          //(rename master branch name as main)
+
+git remote add origin https://github.com/RajSresth/Frontend.git
+
+git push -u origin main                        //(up )
