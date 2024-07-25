@@ -19,3 +19,9 @@ git branch -M main                          //(rename master branch name as main
 git remote add origin https://github.com/RajSresth/Frontend.git
 
 git push -u origin main                        //(up )
+
+git branch feature/testing                     // (Branch Create             branch_name:feature/testing)
+
+git branch                                     // (to check how many branches)
+
+git switch feature/testing                      //(Switch b/w branches)
