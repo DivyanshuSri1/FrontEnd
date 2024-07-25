@@ -24,4 +24,6 @@ git branch feature/testing                     // (Branch Create             bra
 
 git branch                                     // (to check how many branches)
 
-git switch feature/testing                      //(Switch b/w branches)
+git switch feature/testing                      //(Switch b/w branches)   switch/checkout
+
+git merge feature/test 
