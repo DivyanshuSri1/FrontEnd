@@ -27,3 +27,5 @@ git branch                                     // (to check how many branches)
 git switch feature/testing                      //(Switch b/w branches)   switch/checkout
 
 git merge feature/test 
+
+git branch -d feature/test                      //(to delete branch)
