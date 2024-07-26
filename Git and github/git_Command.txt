@@ -29,3 +29,21 @@ git switch feature/testing                      //(Switch b/w branches)   switch
 git merge feature/test 
 
 git branch -d feature/test                      //(to delete branch)
+
+
+git log --oneline 
+git checkout 4343ef5                             //(git checkout commit_hash_Id )   to change head
+
+git checkout main                                //(move head to latest commit)
+
+
+
+git reset --soft 3d74bc36                         //(git reset --soft commit_hash)   to uncommit to stages
+
+git reset --mixed commit_hash                     //(to uncommit to changes)
+
+
+git reset --hard commit_hash_Id                     //(Commit deleted as well as code deleted) not recommended to use
+
+
+git revert commit_hash_Id                           //( revert to previous commit)
